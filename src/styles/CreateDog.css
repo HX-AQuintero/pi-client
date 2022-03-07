@@ -1,0 +1,235 @@
+.create {
+    background-color: #158080;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.err {
+    margin: 0px;
+}
+
+.form {
+    height: 580px;
+    width: 1100px;
+    margin: 20px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    box-shadow: 3px 3px 3px rgba(228, 124, 5);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.nombre {
+    margin: 10px;
+}
+
+.tnom {
+    margin: 0px;
+    padding: 3px;
+}
+
+.nom {
+    width: 500px;
+    height: 30px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    margin-bottom: 0px;
+}
+
+.altmin {
+    margin: 10px;
+}
+
+.taltmin {
+    margin: 0px;
+    padding: 3px;
+}
+
+.amin {
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+}
+
+.amax {
+    width: 150px;
+    height: 30px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+}
+.pemin {
+    margin: 10px;
+}
+
+.tpemin {
+    margin: 0px;
+    padding: 3px;
+}
+
+.pmin {
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+}
+
+.pmax {
+    width: 150px;
+    height: 30px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+}
+
+.lifes {
+    margin: 10px;
+}
+
+.tlifes {
+    margin: 0px;
+    padding: 3px;
+}
+
+.life {
+    width: 150px;
+    height: 30px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+}
+
+.image {
+    margin: 10px;
+}
+
+.timag {
+    margin: 0px;
+    margin-left: 90%;
+    padding: 3px;
+}
+
+.imag {
+    width: 500px;
+    height: 30px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    margin-bottom: 0px;
+}
+
+.temperi {
+    margin: 10px;
+    width: 500px;
+    background-color: transparent;
+}
+
+.temps {
+    margin: 0px;
+    padding: 3px;
+}
+
+.temp {
+    height: 25px;
+    width: 150px;
+    color: white;
+    background-color: rgba(228, 124, 5);
+    border-color: rgba(228, 124, 5);
+    border-radius: 5px;
+    border-style: 2px solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.ts {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btncre {
+    background:    rgba(231, 146, 49);
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 0px;
+    border: 2px solid rgba(228, 124, 5);
+    box-shadow:    rgba(228, 124, 5);
+    cursor: pointer;
+}
+
+.btncre:hover {
+    transform: scale(1.1);
+}
+
+.goback {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    border-color: rgba(228, 124, 5);
+    border-radius: 20px;
+    border-style: solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.guardar {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgba(228, 124, 5, 0.9);
+    border-color: rgba(228, 124, 5);
+    border-radius: 20px;
+    border-style: solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+}

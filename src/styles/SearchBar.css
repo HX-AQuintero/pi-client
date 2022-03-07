@@ -1,0 +1,35 @@
+.barra {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.bus {
+    width: 550px;
+    height: 30px;
+    font-style: italic;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(228, 124, 5);
+    font-weight: 400;
+    font-size: medium;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+}
+
+.botn {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    border-color: rgba(228, 124, 5);
+    border-radius: 20px;
+    border-style: solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+}
+
+.botn:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,156 @@
+.home {
+    background-color: #158080;
+    /* overflow: scroll; */
+    /* top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed; */
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(228, 124, 5);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(231, 146, 49);
+  outline: 1px solid rgba(228, 124, 5);
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    box-sizing: content-box;
+}
+
+.created_dog {
+    width: 300px;
+    height: 50px;
+}
+
+.crea {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  position: relative;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.crea:hover{
+  transform: scale(1.1);
+}
+.c1, .c2, .c3, .c4{
+    background:rgba(231, 146, 49);
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgba(228, 124, 5);
+    border-radius: 50%;
+    position:absolute;
+  }
+  .c1{
+    left: 0;
+    top: 0;
+  }
+  .c2{
+    right: 0;
+    top: 0;
+  }
+  .c3{
+    left: 0;
+    bottom: 0;
+  }
+  .c4{
+    bottom: 0;
+    right: 0;
+  }
+  .b1 {
+    background: rgba(231, 146, 49);
+    height: 32px;
+    width: 120px;
+    position: absolute;  
+    left: 15px;
+    top: 15px;
+  }
+  .b2 {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 2px solid rgba(228, 124, 5);
+    border-bottom: 2px solid rgba(228, 124, 5);
+    text-align: center;
+    color: white;
+    font-size:16.8px;
+    font-weight: bolder;
+    
+  }
+
+
+.load {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.search {
+    margin: 10px;
+}
+
+.navig {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagin {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+  background:    rgba(231, 146, 49);
+border:        2px solid rgba(228, 124, 5);
+border-radius: 50%;
+box-shadow:    rgba(228, 124, 5);
+padding:       10px 4px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 16px/1 "Ubuntu", sans-serif;
+text-align:    center;
+width: 70px;
+height: 70px;
+cursor: pointer;
+}
+
+.about:hover {
+  transform: scale(1.1);
+}
+
+.ref {
+  background:    rgba(231, 146, 49);
+border:        2px solid rgba(228, 124, 5);
+border-radius: 50%;
+box-shadow:    rgba(228, 124, 5);
+padding:       10px 4px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 16px/1 "Ubuntu", sans-serif;
+text-align:    center;
+width: 70px;
+height: 70px;
+cursor: pointer;
+}
+
+.ref:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,39 @@
+
+.card {
+  margin: 20px;
+  border-style: 3px solid rgba(228, 124, 5);
+  border-radius: 30px;
+  border-color: transparent;
+  background-position: 50px -80px;
+  background-color: rgba(231, 146, 49);
+  cursor: pointer;
+  height: 430px;
+  width: 270px;
+  display: inline-block;
+  box-shadow: 3px 3px 3px rgba(228, 124, 5);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 3px rgba(228, 124, 5);
+    }
+
+h3 {
+  font-size: larger;
+}
+
+.image {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 250px;
+}
+
+.temwei {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}

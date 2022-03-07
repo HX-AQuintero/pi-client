@@ -1,0 +1,61 @@
+.title {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/landim.jpeg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.title2 {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    margin-left: 80px;
+}
+
+
+.intro {
+    @import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
+    font-family: "Holtwood One SC";
+    font-size: 60px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px 1px 0px #67aeb1;
+}
+
+
+.bot {
+    background: #33201d;
+    border: 3px solid #2c2409;
+    border-radius: 1000px;
+    padding: 20px 50px;
+    color: #ffffff;
+    display: inline-block;
+    font: bold 30px "Ubuntu", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bot:hover {
+    padding: 20px 50px;
+    background: #53341d;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 100px){
+    .title {
+        max-width: 100%;
+        height: auto
+    }
+}

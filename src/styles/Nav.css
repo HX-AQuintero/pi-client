@@ -1,0 +1,76 @@
+
+.peso {
+    height: 30px;
+    width: 140px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    border-color: rgba(228, 124, 5);
+    border-radius: 5px;
+    border-style: 2px solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.peso:hover {
+    transform: scale(1.1);
+}
+
+.alfab {
+    height: 30px;
+    width: 130px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    border-color: rgba(228, 124, 5);
+    border-radius: 5px;
+    border-style: 2px solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.alfab:hover {
+    transform: scale(1.1);
+}
+
+.temper {
+    height: 30px;
+    width: 145px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    border-color: rgba(228, 124, 5);
+    border-radius: 5px;
+    border-style: 2px solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.temper:hover {
+    transform: scale(1.1);
+}
+
+.todos {
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: rgba(231, 146, 49);
+    border-color: rgba(228, 124, 5);
+    border-radius: 5px;
+    border-style: 2px solid;
+    font-size: medium;
+    font-weight: bolder;
+    font:  normal bold 16px/1 "Ubuntu", sans-serif;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.todos:hover {
+    transform: scale(1.1);
+}
